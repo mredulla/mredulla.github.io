@@ -1,73 +1,69 @@
 html {
-    height: 20%;
+ height: 100%;
 }
+
 body {
-    width: 80%;
-    padding-top: 5 px;
-    height: 20%;
-    margin-left: 5%;
+ width: 800px;
+ margin: 0 auto;
+ padding-top: 5px;
+ height: 100%
 }
+
 header {
-    background-color: green;
-    color: red;
-    text-align: center;
-    padding: 5px;
-    font-size: 24px;
-    display: block;
-    width: 80%;
-    content: normal;
-    margin-left: 5%;
+ background-color: black;
+ color: gold;
+ text-align: center;
+ padding: 5px;
+ font-size: 20px;
+ display: block;
+ width: 790px;
 }
-h1 {
-    content: none;
-    margin-bottom: 0%
-    margin-left: 5%;
-}
-h3 {
-    margin-top: 0%;
-    margin-left: 5%;
-}
-section {
-  height: 100%;
-  width: 80%;
-  margin-left: 5%;
-}
+
 nav {
-  background-color: red;
-  color: green;
-  line-height: 30px;
+ line-height: 30px;
+ background-color: black;
+ color: gold;
 }
-.sidenav {
-  height: 100%;
-  width: 100px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: red;
-  color: green;
-  overflow-x: hidden;
-  padding-top: 30px;
+
+li a {
+ color: gold;
 }
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font size: 25px;
-  color: yellow;
-  display: block;
+
+h2 {
+ background-color: black;
+ color: gold;
+ padding: 5px;
+ padding-left: 10px;
 }
-.sidenav a:hover {
-  color: #f1f1f1;
+
+h4 {
+ padding-left: 25px;
 }
-/*.church {
-  display: flex;
-  width: 30%;
-  border: 0%;
-  margin: 0%;
-  align-items: flex-end;
-}*/
+
 img {
-  width: 800px;
-  height: 450px;
-  margin-left: 5%;
+ width: 800px;
+ height: 325px;
+}
+
+p {
+ padding-top: 10px;
+ padding-bottom: 10px;
+ padding-left: 50px;
+}
+
+body {
+ font-family: georgia;
+}
+
+.sidenav {
+ height: 100%;
+ width: 100px;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #111;
+ overflow-x: hidden;
+ padding-top: 20px;
+ padding-left: 20px;
 }
